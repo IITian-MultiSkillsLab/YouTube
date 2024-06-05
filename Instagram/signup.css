@@ -1,0 +1,143 @@
+*{
+    font-family: "Roboto",sans-serif;
+}
+.signup{
+    width: min(100vh,340px);
+    height: 620px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,0.155);
+
+}
+.getapp{
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    width: min(100vh,340px);
+    margin: 20px auto;
+    text-align: center;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    gap: 5px;
+    margin: auto;
+}
+.app:hover{
+    cursor: pointer;
+}
+.app img{
+    height: 40px;
+    width: 120px;
+}
+.facebook img{
+    height: 20px;
+    width: 20px;
+}
+.heading{
+    font-family: "cookie", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 52px;
+    margin: 15px;
+    text-align: center;
+    padding: 0px;
+    color: rgb(27,27,27);
+}
+.first-txt{
+    margin: 13px 22px;
+    padding: 0px 28px;
+    text-align: center;
+    color: rgba(22,21,21,0.537);
+    font-weight: 500;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 80%;
+    gap: 12px;
+    margin: 9px;
+    color: white;
+    background-color: #1d62f5;
+    border-radius: 8px;
+    border: none;
+}
+.line1{
+    width: 96px;
+    height: 0.1px;
+    opacity: 0.45;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 15px;
+}
+.line2{
+    font-family: "Roboto", sans-serif;
+    color: rgba(22, 21, 21, 0.642);
+    font-size: 14px;
+}
+input{
+    width: 250px;
+    height: 12px;
+    margin: 4px 15px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.155);
+}
+.signup a{
+    color: #033780;
+    text-decoration: none;
+}
+.lm{
+    font-size: smaller;
+    text-align: center;
+    color: rgba(22, 21, 21, 0.642);
+    padding: 8px 26px;
+    margin: 2px 3px;
+}
+.policy{
+    font-size: smaller;
+    text-align: center;
+    color: rgba(22, 21, 21, 0.642);
+    padding: 8px 26px;
+    margin: 2px 3px;
+}
+#signup{
+    background-color: #43b6f1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px 20px;
+    width: min(250px,100%);
+
+}
+a:hover{
+    cursor: pointer;
+}
+.login{
+    font-size: 15px;
+    text-align: center;
+    width: min(316px,100%);
+    border: 1px solid rgba(0,0,0,0.155);
+    margin: 20px auto;
+    padding: 5px 12px;
+}
+.gplay{
+    width: 140px;
+    height: 40px;
+}
+.login a{
+    color: #237fff;
+    text-decoration: none;
+    font-weight: 500;
+}
