@@ -24,16 +24,16 @@ const whengameover = ()=>{
 
 const direction = e => {
     //check for arrow keys and decide direction of snake
-    if(e.key ==="ArrowUp" && speedy !== 1){
+    if(e.key ==="w" && speedy !== 1){
         speedx = 0;
         speedy = -1;
-    } else if (e.key === "ArrowDown" && speedy !== -1){
+    } else if (e.key === "s" && speedy !== -1){
         speedx = 0;
         speedy = 1;
-    } else if (e.key === "ArrowLeft" && speedx !== 1){
+    } else if (e.key === "a" && speedx !== 1){
         speedx = -1;
         speedy = 0;
-    } else if (e.key === "ArrowRight" && speedx !== -1){
+    } else if (e.key === "d" && speedx !== -1){
         speedx = 1;
         speedy = 0;
     }
